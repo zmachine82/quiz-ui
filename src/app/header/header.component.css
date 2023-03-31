@@ -1,0 +1,12 @@
+.header {
+  height: 64px;
+  background-color: rebeccapurple;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 32px;
+}
+
+h1 {
+  margin: 0 ;
+}

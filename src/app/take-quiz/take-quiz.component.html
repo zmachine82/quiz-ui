@@ -1,0 +1,14 @@
+<div *ngIf="test">
+  <h1>{{test.quiz.name}}</h1>
+
+  <h3>Questions:</h3>
+
+  <form #form="ngForm" (ngSubmit)="submitQuestion(form)">
+
+  <div *ngFor="let question of test.questions">
+    <app-question [question]="question"></app-question>
+  </div>
+  <button>submit</button>
+</form>
+
+</div>
